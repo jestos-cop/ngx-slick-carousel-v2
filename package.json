@@ -1,18 +1,20 @@
 {
-  "name": "ngx-slick-carousel",
-  "version": "15.0.0",
+  "name": "ngx-slick-carousel-ver2",
+  "version": "18.0.1",
   "scripts": {
-    "build": "ng build ngx-slick-carousel && cp README.MD dist/README.MD",
+    "build": "ng build ngx-slick-carousel-ver2 && cp README.MD dist/README.MD",
     "docs": "npm run docs:build",
     "docs:build": "compodoc -p tsconfig.json -n ngx-slick -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "eslint -c .eslintrc.js src/**/*.ts --ignore-pattern src/testing/",
-    "test": "ng test ngx-slick-carousel"
+    "test": "ng test ngx-slick-carousel-ver2",
+    "lib:pack": "cd dist && npm pack",
+    "lib:publish": "cd dist &&  npm publish --registry https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leo6104/ngx-slick-carousel"
+    "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2"
   },
   "author": {
     "name": "leo6104",
@@ -23,7 +25,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leo6104/ngx-slick-carousel/issues"
+    "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2/issues"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.0.0-next.7",

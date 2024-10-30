@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "src",
   "projects": {
-    "ngx-slick-carousel": {
+    "ngx-slick-carousel-ver2": {
       "root": "src",
       "projectType": "library",
       "architect": {
