@@ -1,9 +1,9 @@
 {
-  "name": "ngx-slick-carousel",
-  "version": "18.0.0",
+  "name": "ngx-slick-carousel-ver2",
+  "version": "18.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leo6104/ngx-slick-carousel"
+    "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2"
   },
   "author": {
     "name": "leo6104",
@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leo6104/ngx-slick-carousel/issues"
+    "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2/issues"
   },
   "module": "ngx-slick.js",
   "typings": "ngx-slick.d.ts",
