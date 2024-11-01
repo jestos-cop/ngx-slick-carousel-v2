@@ -37,14 +37,14 @@ declare const jQuery: JQueryStatic;
 })
 export class SlickCarouselComponent implements OnDestroy, OnChanges, AfterViewInit, AfterViewChecked {
 
-  @Input() config: JQuerySlickOptions;
-  afterChange = output<{ event: JQuery.TriggeredEvent<HTMLElement>, slick: JQuerySlick, currentSlide: number, first: boolean, last: boolean }>();
-  beforeChange = output<{ event: JQuery.TriggeredEvent<HTMLElement>, slick: JQuerySlick, currentSlide: number, nextSlide: number }>();
-  breakpoint = output<{ event: JQuery.TriggeredEvent<HTMLElement>, slick: JQuerySlick, breakpoint: any }>();
-  destroy = output<{ event: JQuery.TriggeredEvent<HTMLElement>, slick: JQuerySlick }>();
-  init = output<{ event: JQuery.TriggeredEvent<HTMLElement>, slick: JQuerySlick }>();
+  @Input() config: any;
+  afterChange = output<{ event: any, slick: any, currentSlide: number, first: boolean, last: boolean }>();
+  beforeChange = output<{ event: any, slick: any, currentSlide: number, nextSlide: number }>();
+  breakpoint = output<{ event: any, slick: any, breakpoint: any }>();
+  destroy = output<{ event: any, slick: any }>();
+  init = output<{ event: any, slick: any }>();
 
-  public $instance: JQuery;
+  public $instance: any;
 
   // access from parent component can be a problem with change detection timing. Please use afterChange output
   private currentIndex = 0;
