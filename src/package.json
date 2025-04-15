@@ -1,32 +1,36 @@
 {
   "name": "ngx-slick-carousel-ver2",
   "version": "18.0.2",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2"
-  },
+  "description": "Slick Carousel wrapper for Angular 18",
   "author": {
     "name": "leo6104",
     "email": "heo@mpaghq.com"
   },
-  "keywords": [
-    "angular"
-  ],
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2"
+  },
   "bugs": {
     "url": "https://github.com/jestos-cop/ngx-slick-carousel-v2/issues"
   },
-  "module": "ngx-slick.js",
-  "typings": "ngx-slick.d.ts",
-  "dependencies": {
-    "@types/slick-carousel": "^1.6.0",
-    "@types/jquery": ">=2.0.0"
-  },
+  "keywords": [
+    "angular",
+    "slick-carousel",
+    "carousel",
+    "slider"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/core": "^17.0.0 || ^18.0.0",
     "@angular/common": "^17.0.0 || ^18.0.0",
     "@angular/forms": "^17.0.0 || ^18.0.0",
     "rxjs": "^7.0.0",
     "zone.js": "^0.14.0 || ^0.15.0"
-  }
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.14",
+    "@types/slick-carousel": "^1.6.0"
+  },
+  "module": "fesm2022/ngx-slick-carousel-ver2.mjs",
+  "typings": "index.d.ts"
 }
