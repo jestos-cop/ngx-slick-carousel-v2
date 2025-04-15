@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ngx-slick-carousel-ver2",
+  "dest": "../dist",
   "deleteDestPath": true,
   "lib": {
     "entryFile": "index.ts"
