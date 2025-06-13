@@ -14,8 +14,7 @@ To install this library, run:
 
 ```bash
 $ npm install jquery @types/jquery --save
-$ npm install slick-carousel @types/slick-carousel --save
-$ npm install ngx-slick-carousel --save
+$ npm install ngx-slick-carousel-ver2 --save
 ```
 
 ## Consuming your library
@@ -23,7 +22,7 @@ $ npm install ngx-slick-carousel --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install ngx-slick-carousel --save
+$ npm install ngx-slick-carousel-ver2 --save
 ```
 
 and then from your Angular standalone component:
@@ -32,11 +31,11 @@ and then from your Angular standalone component:
 import { Component } from '@angular/core';
 
 // Import your library
-import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SlickCarouselModule } from 'ngx-slick-carousel-ver2';
 
 @Component({
   ...,
-  standalone: true,
+  standalone: false,
   imports: [
     SlickCarouselModule, // Put in here
   ],
@@ -50,8 +49,8 @@ export class ExampleComponent {
 ```
   "styles": [
     ...
-    "node_modules/slick-carousel/slick/slick.scss",
-    "node_modules/slick-carousel/slick/slick-theme.scss",
+    "node_modules/ngx-slick-carousel-ver2/slick/slick.scss",
+    "node_modules/ngx-slick-carousel/slick-ver2/slick-theme.scss",
     ...
   ]
 ```
@@ -61,7 +60,7 @@ export class ExampleComponent {
   "scripts": [
     ...
     "node_modules/jquery/dist/jquery.min.js",
-    "node_modules/slick-carousel/slick/slick.min.js",
+    "node_modules/ngx-slick-carousel-ver2/slick/slick.min.js",
     ...
   ]
 ```

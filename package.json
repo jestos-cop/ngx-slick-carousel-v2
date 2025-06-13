@@ -1,8 +1,8 @@
 {
   "name": "ngx-slick-carousel-ver2",
-  "version": "19.0.4",
+  "version": "19.0.5",
   "scripts": {
-    "build": "ng build ngx-slick-carousel-ver2 && cp README.MD dist/README.MD",
+    "build": "ng build ngx-slick-carousel-ver2 && cp README.MD dist/README.MD && cp -r src/slick dist/slick",
     "docs": "npm run docs:build",
     "docs:build": "compodoc -p tsconfig.json -n ngx-slick -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
